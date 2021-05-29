@@ -1,0 +1,13 @@
+version: '3.4'
+
+services:
+  sensor_device_service:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "80"
+  data_service:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "80"
